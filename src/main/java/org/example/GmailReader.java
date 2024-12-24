@@ -1,4 +1,6 @@
 package org.example;
+import org.example.DatabaseUtils;
+
 import java.sql.Timestamp;
 import javax.mail.*;
 import javax.mail.internet.MimeMultipart;

@@ -37,7 +37,7 @@ public class EmailService {
             message.setContent(htmlContent, "text/html");
 
             Transport.send(message);
-            System.out.println("📧 Email sent successfully to " + recipientEmail);
+            //System.out.println("📧 Email sent successfully to " + recipientEmail);
         } catch (MessagingException e) {
             System.err.println("❌ Failed to send email: " + e.getMessage());
         }
